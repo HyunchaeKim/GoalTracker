@@ -2,7 +2,7 @@
 
 > 게임처럼 목표를 달성하고 경험치를 얻어 성장하는 JavaFX 데스크탑 앱
 
-![Java](https://img.shields.io/badge/Java-JavaFX-blue) ![Python](https://img.shields.io/badge/Backend-FastAPI-green) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Java](https://img.shields.io/badge/Java-JavaFX-blue) ![Python](https://img.shields.io/badge/Backend-FastAPI-green)
 
 ---
 
@@ -69,11 +69,7 @@ uvicorn main:app --reload
 ```
 
 ### 2. JavaFX 앱 실행
-```bash
-# JavaFX SDK 경로 설정 후
-javac --module-path [JavaFX_PATH] --add-modules javafx.controls *.java
-java --module-path [JavaFX_PATH] --add-modules javafx.controls Main
-```
+VSCode에서 `Main.java` 열고 실행 버튼 클릭
 
 ---
 
