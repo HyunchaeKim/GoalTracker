@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+server/__pycache__/
+
+# DB
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# JavaFX 빌드
+*.class
+out/
