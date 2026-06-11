@@ -43,7 +43,7 @@ public class GoalCalculator {
         return STREAK_BONUS_EXP;
     }
 
-    // 레벨 이름 반환 (발표할 때 인상적으로 보임)
+    // 레벨 이름 반환
     public static String getLevelTitle(int level) {
         if (level >= 10) return "🏆 전설의 학습자";
         if (level >= 7)  return "💎 다이아 학습자";
