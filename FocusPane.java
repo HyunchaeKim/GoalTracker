@@ -46,6 +46,7 @@ public class FocusPane extends VBox {
         return focusing;
     }
 
+    //TodoPane에서 집중 시작 시 호출 - 서버에 집중 시작 요청, 타이머 시작, 대시보드 상태 변경
     public void startFocus(Todo todo, DashboardPane dashboardPane) {
         try {
             this.dashboardPane = dashboardPane;

@@ -11,9 +11,9 @@ import java.io.File;
 
 public class Main extends Application {
 
-    private DashboardPane dashboardPane;
-    private TodoPane todoPane;
-    private FocusPane focusPane;
+    private DashboardPane dashboardPane; //레벨, EXP, 집중 시간 현황
+    private TodoPane todoPane; //할 일 목록 CRUD
+    private FocusPane focusPane; //집중 타이머 제어
 
     @Override
     public void start(Stage stage) {

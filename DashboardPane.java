@@ -63,6 +63,7 @@ public class DashboardPane extends VBox {
         return card;
     }
 
+    //FocusPane에서 집중 시작 시 호출 - 상태 텍스트를 '집중 중'으로 변경
     public void setFocusStatus(String text) {
         focusing = true;
         focusText = text;
@@ -70,6 +71,7 @@ public class DashboardPane extends VBox {
         statusLabel.getStyleClass().add("focus-status");
     }
 
+    //FocusPane에서 집중 종료 시 호출 - 상태를 '휴식 중'으로 변경
     public void setRestStatus() {
         focusing = false;
         focusText = "현재 상태: 휴식 중";
